@@ -244,7 +244,7 @@ def random_color_generator():
 
 
 ##Calcule de l'enveloppe concave
-### From github.com/jsmolka/hull
+### The computation of the concave hull is taken from the project github.com/jsmolka/hull under MIT licence. The licence can be found on the LICENSE file of this repository.
 def distance(p1, p2):
     """
     Calculates the distance between two points.
