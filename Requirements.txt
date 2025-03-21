@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+random
+sklearn
+openpyxl
+scipy
+tkinter
+shapely
+Pillow
