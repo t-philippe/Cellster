@@ -270,7 +270,7 @@ def random_color_generator():
 
 
 ##Calcule de l'enveloppe concave
-### The computation of the concave hull is taken from the project github.com/jsmolka/hull under MIT licence. The licence can be found on the LICENSE file of this repository.
+### The computation of the concave hull is taken from the project github.com/jsmolka/hull under MIT licence. The licence can be found at the top of file.
 def distance(p1, p2):
     """
     Calculates the distance between two points.
@@ -746,6 +746,7 @@ def ajout_manuel(frame):
         plot_clusters(frame)
         forme_courbe = None
         
+##Ajouter un cluster avec tracé
 def ajout_manuel_poly(frame):
     global fig, ax, forme_poly
     global nb_points_clusters
